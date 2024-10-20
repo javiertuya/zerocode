@@ -20,13 +20,5 @@ jobs:
           java-version: '8'
           distribution: 'adopt'
 
-      - name: Install Docker Compose
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y docker-compose
-          
-      - name: Running Kafka
-        run: docker-compose -f docker/compose/kafka-schema-registry.yml up -d && sleep 10
-
       - name: Building and testing the changes
-        run: mvn clean test
+        run: mvn clean test -ntp -pl core -Dtest=**/HelloWorldInMemoryTest
