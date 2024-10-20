@@ -1,5 +1,5 @@
 {
-    "scenarioName": "As/simple GET API - Inetgration Test - Local Server",
+    "scenarioName": "As simple GET API - Inetgration Test - Local Server",
     "steps": [
         {
             "name": "find_match",
