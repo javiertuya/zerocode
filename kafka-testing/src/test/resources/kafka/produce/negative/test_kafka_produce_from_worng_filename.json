@@ -12,7 +12,7 @@
             },
             "assertions": {
                 "status" : "Failed",
-                "message" : "Error accessing file: `kafka/pfiles/test_data_rawXX.json' - java.lang.NullPointerException"
+                "message" : "Error accessing file: `kafka/pfiles/test_data_rawXX.json' - java.lang.NullPointerException: Cannot invoke \"java.net.URL.getFile()\" because \"resource\" is null"
             }
         }
     ]
