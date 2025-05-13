@@ -40,7 +40,7 @@ jobs:
 
       - if: always()
         name: Junit html report
-        uses: javiertuya/junit-report-action@1.3.0
+        uses: javiertuya/junit-report-action@v1.3.0
         with:
           surefire-files: "**/target/surefire-reports/TEST-*.xml"
           report-dir: target/site/junit
