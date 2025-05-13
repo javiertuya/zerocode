@@ -390,7 +390,10 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>${maven-surefire-plugin.version}</version>
                     <configuration>
+                        <!--
                         <forkCount>0</forkCount>
+                        <reuseForks>false</reuseForks>
+                        -->
                         <useModulePath>false</useModulePath>
                         <argLine>
                             --add-opens java.base/java.lang=ALL-UNNAMED
