@@ -440,7 +440,7 @@
                 </plugins>
             </build>
         </profile>
-
+        <!--
         <profile>
             <id>jdk-8</id>
             <activation>
@@ -462,5 +462,6 @@
                 </plugins>
             </build>
         </profile>
+        -->
     </profiles>
 </project>
